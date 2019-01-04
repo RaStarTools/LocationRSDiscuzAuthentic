@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.source = { :path => '.' }
 
   s.ios.deployment_target    = '9.0'
-  s.ios.vendored_framework   = 'ios/RSDiscuzAuthentic.framework'
+  s.ios.vendored_framework   = 'RSDiscuzAuthentic.framework'
 end
