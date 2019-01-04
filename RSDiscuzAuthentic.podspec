@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/RaStarTools/LocationRSDiscuzAuthentic.git"
   s.description = "TODO: Add long description of the pod here. This is a base64 encode and decode tool"
   s.frameworks = ["UIKit", "MapKit"]
-  s.source = { :path => '.' }
+  s.source = { :git => 'https://github.com/RaStarTools/LocationRSDiscuzAuthentic.git'}
 
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'RSDiscuzAuthentic.framework'
